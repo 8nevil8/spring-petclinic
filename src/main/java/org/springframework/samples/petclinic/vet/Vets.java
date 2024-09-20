@@ -40,4 +40,12 @@ public class Vets {
 		return vets;
 	}
 
+	public void insert_vet(Vet vet) {
+		vets.add(vet);
+	}
+
+	public void delete_vet(Vet vet) {
+		vets.remove(vet);
+	}
+
 }
